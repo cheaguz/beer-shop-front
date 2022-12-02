@@ -1,9 +1,22 @@
 import React from 'react'
+import { Banner } from '../Components/Banner'
+import { Carrousell } from '../Components/Carrousell'
 
 
 export const Home = () => {
+  const styles = {
+    div : {
+      backgroundColor : '#F5F5F5'
+    }
+  }
   return (
-    <div>Home</div>
+    <div style={styles.div}>
+      
+      <Banner />
+      <Carrousell  title={'Ofertas'}/>
+      <Carrousell  title={'Vinos'}/>
+    </div>
+    
   )
 }
 
