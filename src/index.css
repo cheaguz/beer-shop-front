@@ -1,4 +1,17 @@
 
 body {
   margin: 0;
+  
+}
+
+
+.banner-img {
+  height: 300px;
+}
+
+
+.img-carrousell {
+  width: 200px;
+  height: 200px;
+  
 }
