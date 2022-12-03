@@ -2,6 +2,7 @@ import React from 'react'
 import { Banner } from '../Components/Banner'
 import { CardContainer } from '../Components/CardContainer'
 import { Carrousell } from '../Components/Carrousell'
+import { Footer } from '../Components/Footer'
 
 
 export const Home = () => {
@@ -19,6 +20,9 @@ export const Home = () => {
       <Carrousell  title={'Ofertas'}/>
       <CardContainer />
       <Carrousell  title={'Vinos'}/>
+      <Carrousell  title={'Cervezas'}/>
+
+      <Footer />
       
     </div>
     
