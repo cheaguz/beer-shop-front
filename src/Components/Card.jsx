@@ -8,7 +8,7 @@ export const Card = ({image}) => {
       border : '0.5px solid black',
       textAlign : 'center',
       borderRadius : '12%',
-      backgroundColor : 'rgb(230, 230, 230)'
+      backgroundColor : '#F0F0F0'
     }
   }
 
